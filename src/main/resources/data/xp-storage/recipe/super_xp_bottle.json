@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:lapis_block"
+    },
+    "R": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WRW",
+    " W "
+  ],
+  "result": {
+    "id": "xp-storage:super_xp_bottle",
+    "count": 1
+  }
+}

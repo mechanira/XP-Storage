@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "xp-storage:item/supreme_xp_bottle"
+  }
+}

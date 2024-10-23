@@ -13,16 +13,16 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
 
-public class SuperXPBottleEntity extends ThrownItemEntity {
-    public SuperXPBottleEntity(EntityType<? extends SuperXPBottleEntity> entityType, World world) {
+public class SupremeXPBottleEntity extends ThrownItemEntity {
+    public SupremeXPBottleEntity(EntityType<? extends SupremeXPBottleEntity> entityType, World world) {
         super(entityType, world);
     }
 
-    public SuperXPBottleEntity(World world, LivingEntity owner) {
+    public SupremeXPBottleEntity(World world, LivingEntity owner) {
         super(EntityType.EXPERIENCE_BOTTLE, owner, world);
     }
 
-    public SuperXPBottleEntity(World world, double x, double y, double z) {
+    public SupremeXPBottleEntity(World world, double x, double y, double z) {
         super(EntityType.EXPERIENCE_BOTTLE, x, y, z, world);
     }
 
@@ -41,7 +41,7 @@ public class SuperXPBottleEntity extends ThrownItemEntity {
         super.onCollision(hitResult);
         if (this.getWorld() instanceof ServerWorld) {
             this.getWorld().syncWorldEvent(WorldEvents.SPLASH_POTION_SPLASHED, this.getBlockPos(), PotionContentsComponent.getColor(Potions.WATER));
-            int i = 30 + this.getWorld().random.nextInt(50) + this.getWorld().random.nextInt(50);
+            int i = 100 + this.getWorld().random.nextInt(150) + this.getWorld().random.nextInt(150);
             ExperienceOrbEntity.spawn((ServerWorld)this.getWorld(), this.getPos(), i);
             this.discard();
         }

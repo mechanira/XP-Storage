@@ -6,16 +6,16 @@
       "item": "minecraft:lapis_block"
     },
     "R": {
-      "item": "minecraft:experience_bottle"
+      "item": "xp-storage:supreme_xp_bottle"
     }
   },
   "pattern": [
-    " W ",
+    "WWW",
     "WRW",
-    " W "
+    "WWW"
   ],
   "result": {
-    "id": "xp-storage:super_xp_bottle",
+    "id": "xp-storage:omega_xp_bottle",
     "count": 1
   }
 }

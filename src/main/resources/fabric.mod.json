@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "xp-storage",
-	"version": "${version}",
+	"version": "0.1.0",
 	"name": "XP Storage",
 	"description": "Adds improvements to the vanilla XP system with storage and crafting recipes",
 	"authors": [
@@ -29,8 +29,8 @@
 		"xpstorage.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.5",
-		"minecraft": "~1.21.1",
+		"fabricloader": ">=0.15",
+		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
 	},

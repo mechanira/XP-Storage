@@ -2,20 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "W": {
-      "item": "minecraft:lapis_block"
+    "g": {
+      "item": "minecraft:glowstone_dust"
     },
-    "R": {
+    "l": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "o": {
       "item": "minecraft:experience_bottle"
     }
   },
   "pattern": [
-    " W ",
-    "WRW",
-    " W "
+    " g ",
+    "lol",
+    " g "
   ],
   "result": {
     "id": "xp-storage:super_xp_bottle",
-    "count": 1
+    "count": 4
   }
 }

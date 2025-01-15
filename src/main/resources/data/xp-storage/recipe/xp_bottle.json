@@ -2,20 +2,26 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "W": {
+    "g": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    },
+    "l": {
       "item": "minecraft:lapis_lazuli"
     },
-    "R": {
+    "o": {
       "item": "minecraft:glass_bottle"
     }
   },
   "pattern": [
-    " W ",
-    "WRW",
-    " W "
+    " g ",
+    "lol",
+    " e "
   ],
   "result": {
     "id": "minecraft:experience_bottle",
-    "count": 1
+    "count": 4
   }
 }

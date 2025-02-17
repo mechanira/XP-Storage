@@ -41,7 +41,7 @@ public class SupremeXPBottleEntity extends ThrownItemEntity {
         super.onCollision(hitResult);
         if (this.getWorld() instanceof ServerWorld) {
             this.getWorld().syncWorldEvent(WorldEvents.SPLASH_POTION_SPLASHED, this.getBlockPos(), PotionContentsComponent.getColor(Potions.WATER));
-            int i = 100 + this.getWorld().random.nextInt(150) + this.getWorld().random.nextInt(150);
+            int i = 255 + this.getWorld().random.nextInt(412) + this.getWorld().random.nextInt(413);
             ExperienceOrbEntity.spawn((ServerWorld)this.getWorld(), this.getPos(), i);
             this.discard();
         }

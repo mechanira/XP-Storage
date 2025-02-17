@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "obtain_nether_star": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_star"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_nether_star"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "xp-storage:omega_xp_bottle"
+    ]
+  }
+}

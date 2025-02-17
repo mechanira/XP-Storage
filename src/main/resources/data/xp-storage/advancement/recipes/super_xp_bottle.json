@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "obtain_ghast_tear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ghast_tear"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_ghast_tear"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "xp-storage:super_xp_bottle"
+    ]
+  }
+}

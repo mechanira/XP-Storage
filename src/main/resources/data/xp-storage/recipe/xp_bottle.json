@@ -11,14 +11,14 @@
     "l": {
       "item": "minecraft:lapis_lazuli"
     },
-    "o": {
+    "#": {
       "item": "minecraft:glass_bottle"
     }
   },
   "pattern": [
-    " g ",
-    "lol",
-    " e "
+    " e ",
+    "l#l",
+    " g "
   ],
   "result": {
     "id": "minecraft:experience_bottle",

@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "obtain_dragon_breath": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dragon_breath"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_dragon_breath"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "xp-storage:supreme_xp_bottle"
+    ]
+  }
+}

@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "g": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "l": {
-      "item": "minecraft:lapis_lazuli"
+    "*": {
+      "item": "minecraft:nether_star"
     },
     "o": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "#": {
       "item": "xp-storage:supreme_xp_bottle"
     }
   },
   "pattern": [
-    "glg",
-    "lol",
-    "glg"
+    "   ",
+    "###",
+    "*o*"
   ],
   "result": {
     "id": "xp-storage:omega_xp_bottle",

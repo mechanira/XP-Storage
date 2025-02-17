@@ -2,20 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "a": {
+      "item": "minecraft:golden_apple"
+    },
     "g": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:ghast_tear"
     },
-    "l": {
-      "item": "minecraft:lapis_lazuli"
-    },
-    "o": {
+    "#": {
       "item": "minecraft:experience_bottle"
     }
   },
   "pattern": [
-    " g ",
-    "lol",
-    " g "
+    "   ",
+    "###",
+    "bag"
   ],
   "result": {
     "id": "xp-storage:super_xp_bottle",

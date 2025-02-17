@@ -41,7 +41,7 @@ public class OmegaXPBottleEntity extends ThrownItemEntity {
         super.onCollision(hitResult);
         if (this.getWorld() instanceof ServerWorld) {
             this.getWorld().syncWorldEvent(WorldEvents.SPLASH_POTION_SPLASHED, this.getBlockPos(), PotionContentsComponent.getColor(Potions.WATER));
-            int i = 250 + this.getWorld().random.nextInt(325) + this.getWorld().random.nextInt(325);
+            int i = 1895 + this.getWorld().random.nextInt(1982) + this.getWorld().random.nextInt(1983);
             ExperienceOrbEntity.spawn((ServerWorld)this.getWorld(), this.getPos(), i);
             this.discard();
         }

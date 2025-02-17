@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "g": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "l": {
-      "item": "minecraft:lapis_lazuli"
+    "*": {
+      "item": "minecraft:end_crystal"
     },
     "o": {
+      "item": "minecraft:dragon_breath"
+    },
+    "#": {
       "item": "xp-storage:super_xp_bottle"
     }
   },
   "pattern": [
-    "glg",
-    "lol",
-    "glg"
+    "   ",
+    "###",
+    "o*o"
   ],
   "result": {
     "id": "xp-storage:supreme_xp_bottle",

@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "obtain_lapis": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_lapis"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "xp-storage:xp_bottle"
+    ]
+  }
+}

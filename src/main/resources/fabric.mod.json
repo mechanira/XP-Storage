@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "xp-storage",
-	"version": "0.1.0",
+	"version": "${version}",
 	"name": "XP Storage",
 	"description": "Adds improvements to the vanilla XP system with storage and crafting recipes",
 	"authors": [
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/mechanira/XP-Storage"
 	},
 	"license": "MIT",
-	"icon": "assets/xp-storage/icon.png",
+	"icon": "assets/xp-storage/textures/item/omega_xp_bottle.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

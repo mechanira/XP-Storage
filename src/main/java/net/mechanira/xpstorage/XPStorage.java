@@ -2,6 +2,7 @@ package net.mechanira.xpstorage;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mechanira.xpstorage.entity.ModEntities;
 import net.mechanira.xpstorage.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

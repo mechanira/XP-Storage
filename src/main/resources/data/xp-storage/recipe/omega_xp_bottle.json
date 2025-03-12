@@ -2,18 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "*": {
-      "item": "minecraft:nether_star"
-    },
-    "o": {
-      "item": "minecraft:enchanted_golden_apple"
-    },
-    "#": {
-      "item": "xp-storage:supreme_xp_bottle"
-    }
+    "*": "minecraft:nether_star",
+    "o": "minecraft:enchanted_golden_apple",
+    "#": "xp-storage:supreme_xp_bottle"
   },
   "pattern": [
-    "   ",
     "###",
     "*o*"
   ],

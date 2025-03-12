@@ -2,18 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "*": {
-      "item": "minecraft:end_crystal"
-    },
-    "o": {
-      "item": "minecraft:dragon_breath"
-    },
-    "#": {
-      "item": "xp-storage:super_xp_bottle"
-    }
+    "*": "minecraft:end_crystal",
+    "o": "minecraft:dragon_breath",
+    "#": "xp-storage:super_xp_bottle"
   },
   "pattern": [
-    "   ",
     "###",
     "o*o"
   ],

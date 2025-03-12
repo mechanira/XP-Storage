@@ -2,21 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "b": {
-      "item": "minecraft:blaze_powder"
-    },
-    "a": {
-      "item": "minecraft:golden_apple"
-    },
-    "g": {
-      "item": "minecraft:ghast_tear"
-    },
-    "#": {
-      "item": "minecraft:experience_bottle"
-    }
+    "b": "minecraft:blaze_powder",
+    "a": "minecraft:golden_apple",
+    "g": "minecraft:ghast_tear",
+    "#": "minecraft:experience_bottle"
   },
   "pattern": [
-    "   ",
     "###",
     "bag"
   ],
